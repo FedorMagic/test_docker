@@ -19,4 +19,5 @@ from rest_api import views
 
 urlpatterns = [
     url(r'^$', views.TestRest.as_view()),
+    url(r'^example/$', views.ExampleView.as_view())
 ]
